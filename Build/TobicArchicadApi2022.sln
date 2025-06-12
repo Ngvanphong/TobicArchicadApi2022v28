@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{8CFC9887-5AEB-3C35-96DF-E079F478FB83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{77635E20-7580-3FAD-8B3B-018AEEF7BEBA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3} = {D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}
+		{F51FC845-BD1E-3424-BED4-402226BD7604} = {F51FC845-BD1E-3424-BED4-402226BD7604}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TobicArchicadApi2022", "TobicArchicadApi2022.vcxproj", "{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F51FC845-BD1E-3424-BED4-402226BD7604} = {F51FC845-BD1E-3424-BED4-402226BD7604}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{F51FC845-BD1E-3424-BED4-402226BD7604}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77635E20-7580-3FAD-8B3B-018AEEF7BEBA}.Debug|x64.ActiveCfg = Debug|x64
+		{77635E20-7580-3FAD-8B3B-018AEEF7BEBA}.Release|x64.ActiveCfg = Release|x64
+		{77635E20-7580-3FAD-8B3B-018AEEF7BEBA}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}.Debug|x64.ActiveCfg = Debug|x64
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}.Debug|x64.Build.0 = Debug|x64
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}.Release|x64.ActiveCfg = Release|x64
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}.Release|x64.Build.0 = Release|x64
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{D0AFAC70-C51C-348E-BDD1-B7D983D0C9B3}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{F51FC845-BD1E-3424-BED4-402226BD7604}.Debug|x64.ActiveCfg = Debug|x64
+		{F51FC845-BD1E-3424-BED4-402226BD7604}.Debug|x64.Build.0 = Debug|x64
+		{F51FC845-BD1E-3424-BED4-402226BD7604}.Release|x64.ActiveCfg = Release|x64
+		{F51FC845-BD1E-3424-BED4-402226BD7604}.Release|x64.Build.0 = Release|x64
+		{F51FC845-BD1E-3424-BED4-402226BD7604}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{F51FC845-BD1E-3424-BED4-402226BD7604}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77635E20-7580-3FAD-8B3B-018AEEF7BEBA} = {8CFC9887-5AEB-3C35-96DF-E079F478FB83}
+		{F51FC845-BD1E-3424-BED4-402226BD7604} = {8CFC9887-5AEB-3C35-96DF-E079F478FB83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C1D00C6-E876-303B-93F0-FC2F8D1B187B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

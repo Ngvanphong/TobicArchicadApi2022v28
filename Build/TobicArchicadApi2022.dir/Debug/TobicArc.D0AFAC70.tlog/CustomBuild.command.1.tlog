@@ -1,0 +1,24 @@
+^C:\USERS\ADMIN\DOCUMENTS\ARCHICADAPI272\BUILD\CMAKEFILES\EC042D29852373100BA92437007B14A7\ADDONRESOURCES.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Admin/Documents/ArchicadApi272/Build/ResourceObjects
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\Admin\AppData\Local\Programs\Python\Python310\python.exe D:/archicad-addon-cmake-master/archicad-addon-cmake/Tools/CompileResources.py INT "C:/Program Files/GRAPHISOFT/API Development Kit 27.3001/Support" D:/archicad-addon-cmake-master/archicad-addon-cmake/Src D:/archicad-addon-cmake-master/archicad-addon-cmake C:/Users/Admin/Documents/ArchicadApi272/Build/ResourceObjects C:/Users/Admin/Documents/ArchicadApi272/Build/ResourceObjects/TobicArchicadApi2022.res
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Admin/Documents/ArchicadApi272/Build/ResourceObjects/AddOnResources.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ARCHICAD-ADDON-CMAKE-MASTER\ARCHICAD-ADDON-CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/archicad-addon-cmake-master/archicad-addon-cmake -BC:/Users/Admin/Documents/ArchicadApi272/Build --check-stamp-file C:/Users/Admin/Documents/ArchicadApi272/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

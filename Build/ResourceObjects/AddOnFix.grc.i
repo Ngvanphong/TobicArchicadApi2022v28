@@ -1,0 +1,9 @@
+
+'MDID' 32500 "Add-On Identifier" {
+	826629955
+	500893686
+}
+
+'GICN' 10001 "AddOnIcon" {
+	"AddOnIcon"
+}

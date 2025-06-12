@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOCUMENTS\ARCHICADAPI272\BUILD\CMAKEFILES\106E7BA67F20C032D66EC865628ABAB9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/archicad-addon-cmake-master/archicad-addon-cmake -BC:/Users/Admin/Documents/ArchicadApi272/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Documents/ArchicadApi272/Build/TobicArchicadApi2022.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

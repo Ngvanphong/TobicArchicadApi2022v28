@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\Src\AddOnMain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PoinsToMeshBinding.cpp">
+      <Filter>Sources\AddPointsToMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignElements.cpp">
+      <Filter>Sources\AllignFace</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWallBinding.cpp">
+      <Filter>Sources\BaseWall</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamBottomBeamBinding.cpp">
+      <Filter>Sources\BeamBottom</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamBottomTopBinding.cpp">
+      <Filter>Sources\BeamBottomTop</Filter>
+    </ClCompile>
+    <ClCompile Include="OffsetFromTopForm.cpp">
+      <Filter>Sources\BeamBottomTop</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamDimWithLine.cpp">
+      <Filter>Sources\BeamDimensionWithLine</Filter>
+    </ClCompile>
+    <ClCompile Include="AlignBeamToFloor.cpp">
+      <Filter>Sources\BeamToFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamToRoofBinding.cpp">
+      <Filter>Sources\BeamToRoof</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamCad.cpp">
+      <Filter>Sources\CadBeam</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamCadForm.cpp">
+      <Filter>Sources\CadBeam</Filter>
+    </ClCompile>
+    <ClCompile Include="ColumnCad.cpp">
+      <Filter>Sources\CadColumn</Filter>
+    </ClCompile>
+    <ClCompile Include="CadSlab.cpp">
+      <Filter>Sources\CadSlab</Filter>
+    </ClCompile>
+    <ClCompile Include="WallCad.cpp">
+      <Filter>Sources\CadWall</Filter>
+    </ClCompile>
+    <ClCompile Include="CadZoneCreate.cpp">
+      <Filter>Sources\CadZone</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeIdRevit.cpp">
+      <Filter>Sources\ChangeIdFromRevit</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeIdRevitPrefix.cpp">
+      <Filter>Sources\ChangeIdFromRevit</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveIdSao.cpp">
+      <Filter>Sources\ChangeIdFromRevit</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeProfileElement.cpp">
+      <Filter>Sources\ChangeType</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeProfilePrefixLevel.cpp">
+      <Filter>Sources\ChangeType</Filter>
+    </ClCompile>
+    <ClCompile Include="ColumnDimension.cpp">
+      <Filter>Sources\ColumnDimension</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateCoppha.cpp">
+      <Filter>Sources\Coppha</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateLayerAuto.cpp">
+      <Filter>Sources\CreateLayerAuto</Filter>
+    </ClCompile>
+    <ClCompile Include="CurtainWallOpeningBinding.cpp">
+      <Filter>Sources\CurtainWallOpen</Filter>
+    </ClCompile>
+    <ClCompile Include="FamilyByPointBinding.cpp">
+      <Filter>Sources\FamilyByPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="FitlerAndCutElement.cpp">
+      <Filter>Sources\FilterAndCut</Filter>
+    </ClCompile>
+    <ClCompile Include="FireProtectBinding.cpp">
+      <Filter>Sources\FireProtect</Filter>
+    </ClCompile>
+    <ClCompile Include="FormCheckBoxFire.cpp">
+      <Filter>Sources\FireProtect</Filter>
+    </ClCompile>
+    <ClCompile Include="FormCheckBox.cpp">
+      <Filter>Sources\FormCheckbox</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerListBox.cpp">
+      <Filter>Sources\FormLayerListBox</Filter>
+    </ClCompile>
+    <ClCompile Include="FromRollDown.cpp">
+      <Filter>Sources\FormRollDown</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMashiAuto.cpp">
+      <Filter>Sources\InputMashi</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelExport.cpp">
+      <Filter>Sources\LevelCopy</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelImport.cpp">
+      <Filter>Sources\LevelCopy</Filter>
+    </ClCompile>
+    <ClCompile Include="CreaetMeshTopo.cpp">
+      <Filter>Sources\MeshTopo</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMeshTopo.cpp">
+      <Filter>Sources\MeshTopoEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningWallBinding.cpp">
+      <Filter>Sources\OpeningWall</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintWallBinding.cpp">
+      <Filter>Sources\PaintWall</Filter>
+    </ClCompile>
+    <ClCompile Include="ParametersSet.cpp">
+      <Filter>Sources\ParameterSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateProfiles.cpp">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyHotSpot.cpp">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadExcel.cpp">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyHotSpotH.cpp">
+      <Filter>Sources\ProfileAttributeH</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateProfilesH.cpp">
+      <Filter>Sources\ProfileAttributeH</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyHotSpotRec.cpp">
+      <Filter>Sources\ProfilesRecSteel</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfileRecSteelAtribute.cpp">
+      <Filter>Sources\ProfilesRecSteel</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDataCad.cpp">
+      <Filter>Sources\ReadDataCad</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectEditElementBinding.cpp">
+      <Filter>Sources\SelectEditElement</Filter>
+    </ClCompile>
+    <ClCompile Include="SeparateMirror.cpp">
+      <Filter>Sources\SeparateWallMirror</Filter>
+    </ClCompile>
+    <ClCompile Include="SeperateWall.cpp">
+      <Filter>Sources\SeperrateLayerWall</Filter>
+    </ClCompile>
+    <ClCompile Include="WallCeiling.cpp">
+      <Filter>Sources\WallCeilingToCeiling</Filter>
+    </ClCompile>
+    <ClCompile Include="WallToFloorBinding.cpp">
+      <Filter>Sources\WallToBeamFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="WalllWithLineDimenison.cpp">
+      <Filter>Sources\WallWithLineDim</Filter>
+    </ClCompile>
+    <ClCompile Include="DimensionUtilities.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PickPoint.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="QtDimensionForm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="WallDimension.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\Src\APIEnvir.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\Src\ResourceIds.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="PoinsToMeshBinding.h">
+      <Filter>Sources\AddPointsToMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignElements.h">
+      <Filter>Sources\AllignFace</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWallBinding.h">
+      <Filter>Sources\BaseWall</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamBottomBeamBinding.h">
+      <Filter>Sources\BeamBottom</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamBottomTopBinding.h">
+      <Filter>Sources\BeamBottomTop</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetFromTopForm.h">
+      <Filter>Sources\BeamBottomTop</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamDimWithLine.h">
+      <Filter>Sources\BeamDimensionWithLine</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignBeamToFloor.h">
+      <Filter>Sources\BeamToFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamToRoofBinding.h">
+      <Filter>Sources\BeamToRoof</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamCad.h">
+      <Filter>Sources\CadBeam</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamCadForm.h">
+      <Filter>Sources\CadBeam</Filter>
+    </ClInclude>
+    <ClInclude Include="ColumnCad.h">
+      <Filter>Sources\CadColumn</Filter>
+    </ClInclude>
+    <ClInclude Include="CadSlab.h">
+      <Filter>Sources\CadSlab</Filter>
+    </ClInclude>
+    <ClInclude Include="WallCad.h">
+      <Filter>Sources\CadWall</Filter>
+    </ClInclude>
+    <ClInclude Include="CadZoneCreate.h">
+      <Filter>Sources\CadZone</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeIdRevit.h">
+      <Filter>Sources\ChangeIdFromRevit</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeIdRevitPrefix.h">
+      <Filter>Sources\ChangeIdFromRevit</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveIdSao.h">
+      <Filter>Sources\ChangeIdFromRevit</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeProfileElement.h">
+      <Filter>Sources\ChangeType</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeProfilePrefixLevel.h">
+      <Filter>Sources\ChangeType</Filter>
+    </ClInclude>
+    <ClInclude Include="ColumnDimension.h">
+      <Filter>Sources\ColumnDimension</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateCoppha.h">
+      <Filter>Sources\Coppha</Filter>
+    </ClInclude>
+    <ClInclude Include="DataCoppha.h">
+      <Filter>Sources\Coppha</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateLayerAuto.h">
+      <Filter>Sources\CreateLayerAuto</Filter>
+    </ClInclude>
+    <ClInclude Include="CurtainWallOpeningBinding.h">
+      <Filter>Sources\CurtainWallOpen</Filter>
+    </ClInclude>
+    <ClInclude Include="FamilyByPointBinding.h">
+      <Filter>Sources\FamilyByPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="FitlerAndCutElement.h">
+      <Filter>Sources\FilterAndCut</Filter>
+    </ClInclude>
+    <ClInclude Include="FireProtectBinding.h">
+      <Filter>Sources\FireProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="FormCheckBoxFire.h">
+      <Filter>Sources\FireProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="FormCheckBox.h">
+      <Filter>Sources\FormCheckbox</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerListBox.h">
+      <Filter>Sources\FormLayerListBox</Filter>
+    </ClInclude>
+    <ClInclude Include="FromRollDown.h">
+      <Filter>Sources\FormRollDown</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMashiAuto.h">
+      <Filter>Sources\InputMashi</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelImport.h">
+      <Filter>Sources\LevelCopy</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelExport.h">
+      <Filter>Sources\LevelCopy</Filter>
+    </ClInclude>
+    <ClInclude Include="CreaetMeshTopo.h">
+      <Filter>Sources\MeshTopo</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMeshTopo.h">
+      <Filter>Sources\MeshTopoEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningWallBinding.h">
+      <Filter>Sources\OpeningWall</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintWallBinding.h">
+      <Filter>Sources\PaintWall</Filter>
+    </ClInclude>
+    <ClInclude Include="ParametersSet.h">
+      <Filter>Sources\ParameterSet</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateProfiles.h">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProfile.h">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyHotSpot.h">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadExcel.h">
+      <Filter>Sources\ProfileAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyHotSpotH.h">
+      <Filter>Sources\ProfileAttributeH</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateProfilesH.h">
+      <Filter>Sources\ProfileAttributeH</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyHotSpotRec.h">
+      <Filter>Sources\ProfilesRecSteel</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfileRecSteelAtribute.h">
+      <Filter>Sources\ProfilesRecSteel</Filter>
+    </ClInclude>
+    <ClInclude Include="DataReadCad.h">
+      <Filter>Sources\ReadDataCad</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDataCad.h">
+      <Filter>Sources\ReadDataCad</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectEditElementBinding.h">
+      <Filter>Sources\SelectEditElement</Filter>
+    </ClInclude>
+    <ClInclude Include="SeparateMirror.h">
+      <Filter>Sources\SeparateWallMirror</Filter>
+    </ClInclude>
+    <ClInclude Include="SeperateWall.h">
+      <Filter>Sources\SeperrateLayerWall</Filter>
+    </ClInclude>
+    <ClInclude Include="WallCeiling.h">
+      <Filter>Sources\WallCeilingToCeiling</Filter>
+    </ClInclude>
+    <ClInclude Include="WallToFloorBinding.h">
+      <Filter>Sources\WallToBeamFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="WalllWithLineDimenison.h">
+      <Filter>Sources\WallWithLineDim</Filter>
+    </ClInclude>
+    <ClInclude Include="DimensionUtilities.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="PickPoint.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="PointAndVectorUtilities.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="QtDimensionForm.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformMaxtrixUtilities.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="WallDimension.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\Documents\ArchicadApi272\Build\CMakeFiles\ec042d29852373100ba92437007b14a7\AddOnResources.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\RFIX\Images\AddOnIcon_18x18.svg">
+      <Filter>Images</Filter>
+    </None>
+    <None Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\RFIX.win\AddOnMain.rc2">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\RFIX\AddOnFix.grc">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\RINT\AddOn.grc">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\Tools\BuildAddOn.py">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="D:\archicad-addon-cmake-master\archicad-addon-cmake\Tools\CompileResources.py">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="C:\Users\Admin\Documents\ArchicadApi272\Build\ResourceObjects\AddOnResources.stamp" />
+    <None Include="cmake_install.cmake" />
+    <None Include="TobicCadArchidata.json">
+      <Filter>Sources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{659811F3-DFB5-3A31-AB4B-EAABEA7D30A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{4A31AC0C-2982-3CE9-A303-91ACC5AD4BE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{5CA5CD18-52BF-36E3-A8CB-F3892B6CF265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{DA1328E5-E433-35AB-AF51-0D95445B76F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\AddPointsToMesh">
+      <UniqueIdentifier>{555ca23a-51ac-4e24-bead-5972dfc92d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\AllignFace">
+      <UniqueIdentifier>{8a3c07cb-da5e-4163-8c1b-18b1d7ccc36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\BaseWall">
+      <UniqueIdentifier>{21eef49d-01a1-4658-a6e0-43d2278fa2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\BeamBottom">
+      <UniqueIdentifier>{70ce9ac1-bef9-4f1a-b3a0-8b75423ffea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\BeamBottomTop">
+      <UniqueIdentifier>{00376784-0b66-4af4-b6b1-a2acc9d06ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\BeamDimensionWithLine">
+      <UniqueIdentifier>{b9142a1c-d430-4dcf-a65d-70a2886dbb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\BeamToFloor">
+      <UniqueIdentifier>{e01ab42e-bfbb-4f58-929f-91d547dd245d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\BeamToRoof">
+      <UniqueIdentifier>{6fa0c9e5-58f2-4f02-b760-2b214852c381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CadBeam">
+      <UniqueIdentifier>{ee805253-3af0-4e8d-bee3-d1eaab9af2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CadColumn">
+      <UniqueIdentifier>{d10aea70-c1c1-4023-b480-c43f080b4e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CadSlab">
+      <UniqueIdentifier>{501f3ccb-40b5-4fd2-a631-b9d1e2c46b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CadWall">
+      <UniqueIdentifier>{474b39d7-a37a-4a57-b83c-aa576e744399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CadZone">
+      <UniqueIdentifier>{be0001a8-e1f5-4d1c-bfeb-56a95b90c0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ChangeIdFromRevit">
+      <UniqueIdentifier>{0941517f-4457-4121-80a9-14daafb7effa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ChangeType">
+      <UniqueIdentifier>{b3040b59-52a0-4b9b-98ae-3bb902eda0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ColumnDimension">
+      <UniqueIdentifier>{8dd582bc-1975-4708-8d5d-ddfc5e63a4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Coppha">
+      <UniqueIdentifier>{8120622c-9ab6-418f-bbd6-362ec6e050b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CreateLayerAuto">
+      <UniqueIdentifier>{26ed00de-db4b-44fb-87ec-80cb2ccaf175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CurtainWallOpen">
+      <UniqueIdentifier>{55fc7b60-34ce-4241-a609-082b89e15d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FamilyByPoint">
+      <UniqueIdentifier>{93cc3eeb-0060-424e-b552-dc676bffa82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FilterAndCut">
+      <UniqueIdentifier>{b8f87f4b-885f-4319-833d-ab5582c13f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FireProtect">
+      <UniqueIdentifier>{924eee9e-7c42-46d4-b55b-df943a07f9fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FormCheckbox">
+      <UniqueIdentifier>{943b716e-4f05-40f6-ac0f-0bad80193027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FormLayerListBox">
+      <UniqueIdentifier>{ffa9907b-9cd3-4e7b-8b87-69efd4de272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FormRollDown">
+      <UniqueIdentifier>{2f47ee14-f319-4b7c-a0ab-04d24801d2bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\InputMashi">
+      <UniqueIdentifier>{a3497472-1635-4e5e-81c8-487ad4133e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\LevelCopy">
+      <UniqueIdentifier>{01ea3cdb-02f8-4809-a404-03fb84d1f02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MeshTopo">
+      <UniqueIdentifier>{bdd897f5-3f42-46a7-8663-be23abc6a9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MeshTopoEdit">
+      <UniqueIdentifier>{ed2d7fec-9da5-4f27-855e-082b4ebcb66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\OpeningWall">
+      <UniqueIdentifier>{fedec200-11e1-412c-aba8-4d2afe6bba93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\PaintWall">
+      <UniqueIdentifier>{67fabe55-cb28-423a-98a8-46bac12f9749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ParameterSet">
+      <UniqueIdentifier>{ff4b7e89-7dba-4cf4-ac29-a7ecc78e183f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ProfileAttribute">
+      <UniqueIdentifier>{14d56a6c-0a88-4aa1-8d34-af0101e30e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ProfileAttributeH">
+      <UniqueIdentifier>{4d2c8dda-b471-44c5-a0be-8f4503d445a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ProfilesRecSteel">
+      <UniqueIdentifier>{eca611d5-8c10-49a2-81dd-57fbf3c5aa9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ReadDataCad">
+      <UniqueIdentifier>{dd2d444a-2230-4b95-9fd0-39a78633f8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\SelectEditElement">
+      <UniqueIdentifier>{e22f387f-0e38-4ed0-815e-d6ef02e232ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\SeparateWallMirror">
+      <UniqueIdentifier>{5f0d281b-1015-4963-9125-7286dcc8fe51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\SeperrateLayerWall">
+      <UniqueIdentifier>{c7f0852b-3988-4a4a-adb4-1740cfa5e0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\WallCeilingToCeiling">
+      <UniqueIdentifier>{4def24d8-16c8-4901-9b7e-3a075d55d446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\WallToBeamFloor">
+      <UniqueIdentifier>{6cf2dae7-6a91-4f4d-92d9-5eca7ba9d89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\WallWithLineDim">
+      <UniqueIdentifier>{c3970185-1bd1-4738-9fca-de6dc4cac1ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeCache.txt" />
+  </ItemGroup>
+</Project>
